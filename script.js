@@ -40,10 +40,10 @@ var models = [
         info: 'Dragonite, Lv. 99, HP 150/150',
     },
     {
-        url: './assets/dragonite/scene.gltf',
+        url: './assets/12SIF/scene.gltf',
         scale: '0.08 0.08 0.08',
         rotation: '0 180 0',
-        info: 'Dragonite, Lv. 99, HP 150/150',
+        info: '12SIF, Lv. 999, HP 999/999',
     },
 ];
 
