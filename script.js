@@ -45,6 +45,12 @@ var models = [
         rotation: '0 180 0',
         info: '20dh, Lv. 999, HP 999/999',
     },
+    {
+        url: './assets/lantern/scene.gltf',
+        scale: '1 1 1',
+        rotation: '0 180 0',
+        info: 'lantern, Lv. 999, HP 999/999',
+    },
 ];
 
 var modelIndex = 0;
