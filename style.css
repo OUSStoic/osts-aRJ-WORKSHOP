@@ -17,25 +17,17 @@ button {
     justify-content: center;
     border: 2px solid white;
     background-color: transparent;
-    width: 0;
-    height: 0;
-    border-left: 1em solid transparent;
-    border-right: 1em solid transparent;
-    border-bottom: 1.73em solid rgba(0, 0, 0, 0.4); /* 1.73 is approximately sqrt(3) */
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
     font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
     outline: none;
-    position: relative;
-    margin: 0 0.5em; /* Adjust margin as needed */
 }
 
 button::before {
     content: '🌳'; /* Tree symbol */
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 1.5em; /* Adjust font size as needed */
-    z-index: 1;
 }
 
 .instructions {
@@ -44,3 +36,4 @@ button::before {
     font-size: 1.25em;
     color: white;
     z-index: 999999;
+}
