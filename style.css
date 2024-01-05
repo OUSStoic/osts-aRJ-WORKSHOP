@@ -22,7 +22,7 @@ button {
     border-radius: 100%;
     font-size: 2em;
     background-color: rgba(0, 0, 0, 0.4);
-    color: white;
+    color: rgb(161, 0, 0);
     outline: none;
 }
 
