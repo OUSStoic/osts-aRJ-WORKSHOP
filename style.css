@@ -17,32 +17,30 @@ button {
     justify-content: center;
     border: 2px solid white;
     background-color: transparent;
-    width: 2em;
-    height: 2em;
-    border-radius: 5%;
+    width: 0;
+    height: 0;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-bottom: 1.73em solid rgba(0, 0, 0, 0.4); /* 1.73 is approximately sqrt(3) */
     font-size: 2em;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: rgb(73, 0, 0);
+    color: white;
     outline: none;
     position: relative;
     margin: 0 0.5em; /* Adjust margin as needed */
 }
 
 button::before {
-    content: '';
+    content: '🌳'; /* Tree symbol */
     position: absolute;
     top: 0;
     left: 0;
-    width: 0;
-    border-left: 1em solid transparent;
-    border-right: 1em solid transparent;
-    border-bottom: 1.73em solid rgba(0, 0, 0, 0.4); /* 1.73 is approximately sqrt(3) */
-}
-
-button::after {
-    content: '?';
-    position: absolute;
-    color: white;
-    font-size: 1em; /* Adjust font size as needed */
+    font-size: 1.5em; /* Adjust font size as needed */
     z-index: 1;
 }
+
+.instructions {
+    position: fixed;
+    top: 5%;
+    font-size: 1.25em;
+    color: white;
+    z-index: 999999;
