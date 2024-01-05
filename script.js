@@ -41,7 +41,7 @@ var models = [
     },
     {
         url: './assets/12SIF/scene.gltf',
-        scale: '0.2 0.2 0.2',
+        scale: '1 1 1',
         rotation: '0 180 0',
         info: '12SIF, Lv. 999, HP 999/999',
     },
