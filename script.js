@@ -22,16 +22,16 @@ function staticLoadPlaces() {
 
 var models = [
     {
-        url: './assets/magnemite/scene.gltf',
-        scale: '0.2 0.2 0.2',
-        info: 'Magnemite, Lv. 5, HP 10/10',
+        url: './assets/wumpus/scene.gltf',
+        scale: '1 1 1',
+        info: 'wumpus, Lv. 5, HP 10/10',
         rotation: '0 180 0',
     },
     {
-        url: './assets/articuno/scene.gltf',
-        scale: '0.01 0.01 0.01',
+        url: './assets/miky/scene.gltf',
+        scale: '1 1 1',
         rotation: '0 180 0',
-        info: 'Articuno, Lv. 80, HP 100/100',
+        info: 'miky, Lv. 80, HP 100/100',
     },
     {
         url: './assets/luffy/scene.gltf',
